@@ -44,15 +44,9 @@ void trig_function()
    parser_t parser;
    parser.compile(expression_string,expression);
 
-   for (x = T(-5); x <= T(+5); x += T(0.001))
+   for (x = T(-5); x <= T(+5); x += T(0.1))
    {
       const T y = expression.value();
       printf("%19.15f\t%19.15f\n", x, y);
    }
-}
-
-int main()
-{
-   trig_function<double>();
-   return 0;
 }
