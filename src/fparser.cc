@@ -411,7 +411,7 @@ namespace
            If unsigned has more than 32 bits, the other
            higher order bits are to be assumed zero.
         */
-#include "extrasrc/fp_identifier_parser.inc"
+#include "fp_identifier_parser.inc"
         return 0;
     }
 
@@ -1642,7 +1642,7 @@ inline void FunctionParserBase<Value_t>::AddFunctionOpcode(unsigned opcode)
 {
 #define FP_FLOAT_VERSION 1
 #define FP_COMPLEX_VERSION 0
-#include "extrasrc/fp_opcode_add.inc"
+#include "fp_opcode_add.inc"
 #undef FP_COMPLEX_VERSION
 #undef FP_FLOAT_VERSION
 }
@@ -1654,7 +1654,7 @@ inline void FunctionParserBase<long>::AddFunctionOpcode(unsigned opcode)
     typedef long Value_t;
 #define FP_FLOAT_VERSION 0
 #define FP_COMPLEX_VERSION 0
-#include "extrasrc/fp_opcode_add.inc"
+#include "fp_opcode_add.inc"
 #undef FP_COMPLEX_VERSION
 #undef FP_FLOAT_VERSION
 }
@@ -1667,7 +1667,7 @@ inline void FunctionParserBase<GmpInt>::AddFunctionOpcode(unsigned opcode)
     typedef GmpInt Value_t;
 #define FP_FLOAT_VERSION 0
 #define FP_COMPLEX_VERSION 0
-#include "extrasrc/fp_opcode_add.inc"
+#include "fp_opcode_add.inc"
 #undef FP_COMPLEX_VERSION
 #undef FP_FLOAT_VERSION
 }
@@ -1680,7 +1680,7 @@ inline void FunctionParserBase<std::complex<double> >::AddFunctionOpcode(unsigne
     typedef std::complex<double> Value_t;
 #define FP_FLOAT_VERSION 1
 #define FP_COMPLEX_VERSION 1
-#include "extrasrc/fp_opcode_add.inc"
+#include "fp_opcode_add.inc"
 #undef FP_COMPLEX_VERSION
 #undef FP_FLOAT_VERSION
 }
@@ -1693,7 +1693,7 @@ inline void FunctionParserBase<std::complex<float> >::AddFunctionOpcode(unsigned
     typedef std::complex<float> Value_t;
 #define FP_FLOAT_VERSION 1
 #define FP_COMPLEX_VERSION 1
-#include "extrasrc/fp_opcode_add.inc"
+#include "fp_opcode_add.inc"
 #undef FP_COMPLEX_VERSION
 #undef FP_FLOAT_VERSION
 }
@@ -1706,7 +1706,7 @@ inline void FunctionParserBase<std::complex<long double> >::AddFunctionOpcode(un
     typedef std::complex<long double> Value_t;
 #define FP_FLOAT_VERSION 1
 #define FP_COMPLEX_VERSION 1
-#include "extrasrc/fp_opcode_add.inc"
+#include "fp_opcode_add.inc"
 #undef FP_COMPLEX_VERSION
 #undef FP_FLOAT_VERSION
 }

@@ -2436,7 +2436,7 @@ lU2
 false,false>){x81
 # define FP_FLOAT_VERSION 1
 # define FP_COMPLEX_VERSION 0
-# include "extrasrc/fp_opcode_add.inc"
+# include "fp_opcode_add.inc"
 # undef FP_COMPLEX_VERSION
 # undef FP_FLOAT_VERSION
 }
@@ -2444,7 +2444,7 @@ lU2
 true,false>){x81
 # define FP_FLOAT_VERSION 0
 # define FP_COMPLEX_VERSION 0
-# include "extrasrc/fp_opcode_add.inc"
+# include "fp_opcode_add.inc"
 # undef FP_COMPLEX_VERSION
 # undef FP_FLOAT_VERSION
 }
@@ -2453,7 +2453,7 @@ lU2
 false,true>){x81
 # define FP_FLOAT_VERSION 1
 # define FP_COMPLEX_VERSION 1
-# include "extrasrc/fp_opcode_add.inc"
+# include "fp_opcode_add.inc"
 # undef FP_COMPLEX_VERSION
 # undef FP_FLOAT_VERSION
 }
@@ -2461,7 +2461,7 @@ lU2
 true,true>){x81
 # define FP_FLOAT_VERSION 0
 # define FP_COMPLEX_VERSION 1
-# include "extrasrc/fp_opcode_add.inc"
+# include "fp_opcode_add.inc"
 # undef FP_COMPLEX_VERSION
 # undef FP_FLOAT_VERSION
 }
