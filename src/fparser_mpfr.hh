@@ -8,7 +8,7 @@
 #define ONCE_FPARSER_MPFR_H_
 
 #include "fparser.hh"
-#include "mpfr/MpfrFloat.hh"
+#include "MpfrFloat.hh"
 
 class FunctionParser_mpfr: public FunctionParserBase<MpfrFloat> {};
 

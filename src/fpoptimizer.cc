@@ -19,8 +19,8 @@
 #include "fpconfig.hh"
 #ifdef FP_SUPPORT_OPTIMIZER
 #include "fparser.hh"
-#include "extrasrc/fptypes.hh"
-#include "extrasrc/fpaux.hh"
+#include "fptypes.hh"
+#include "fpaux.hh"
 #pragma GCC diagnostic ignored "-Wunused-variable"
 #define tO3 ;typedef
 #define tN3 (xP1 a)

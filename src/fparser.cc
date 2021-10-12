@@ -19,8 +19,8 @@
 #include <cassert>
 #include <limits>
 
-#include "extrasrc/fptypes.hh"
-#include "extrasrc/fpaux.hh"
+#include "fptypes.hh"
+#include "fpaux.hh"
 using namespace FUNCTIONPARSERTYPES;
 
 #ifdef FP_USE_THREAD_SAFE_EVAL_WITH_ALLOCA

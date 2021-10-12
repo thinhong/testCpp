@@ -8,7 +8,7 @@
 #define ONCE_FPARSER_GMPINT_H_
 
 #include "fparser.hh"
-#include "mpfr/GmpInt.hh"
+#include "GmpInt.hh"
 
 class FunctionParser_gmpint: public FunctionParserBase<GmpInt> {};
 
